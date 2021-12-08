@@ -10,7 +10,7 @@ const Menu = () => {
   const navLinks = [
     { label: "Home", icon: "home", path: "/" },
     { label: "Message", icon: "near_me", path: "/message" },
-    { label: "Discover", icon: "explore", path: "/discover" },
+    // { label: "Discover", icon: "explore", path: "/discover" },
   ];
 
   const { auth, theme, notify } = useSelector((state) => state);
@@ -74,7 +74,7 @@ const Menu = () => {
                 Profile
               </Link>
             </li>
-            <li>
+            {/* <li>
               <label
                 style={{ color: "white" }}
                 htmlFor="theme"
@@ -85,7 +85,7 @@ const Menu = () => {
               >
                 {theme ? "Light mode" : "Dark mode"}
               </label>
-            </li>
+            </li> */}
             <li>
               <hr className="dropdown-divider" />
             </li>
