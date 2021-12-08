@@ -129,7 +129,7 @@ const StatusModal = () => {
             onChange={(e) => setContent(e.target.value)}
             value={content}
             name="content"
-            placeholder={`${auth.user.username}, What's on your mind?`}
+            placeholder={`${auth.user.username}, what's new?`}
             style={{
               filter: theme ? "invert(1)" : "invert(0)",
               color: theme ? "white" : "#111",
