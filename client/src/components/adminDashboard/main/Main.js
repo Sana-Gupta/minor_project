@@ -73,7 +73,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="card_admin">
+          {/* <div className="card_admin">
             <i className="fa fa-ban fa-2x text-red" aria-hidden="true"></i>
             <div className="card_inner_admin">
               <p className="text-primary-p">Reported Posts</p>
@@ -81,7 +81,7 @@ const Main = () => {
                 {admin.total_spam_posts}
               </span>
             </div>
-          </div>
+          </div> */}
 
           <div className="card_admin">
             <i
@@ -94,7 +94,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="card_admin">
+          {/* <div className="card_admin">
             <i
               className="fa fa-check-circle fa-2x  text-green"
               aria-hidden="true"
@@ -105,7 +105,7 @@ const Main = () => {
                 {admin.total_active_users}
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* <!-- MAIN CARDS ENDS HERE --> */}
 
