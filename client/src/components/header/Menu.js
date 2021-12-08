@@ -74,18 +74,6 @@ const Menu = () => {
                 Profile
               </Link>
             </li>
-            {/* <li>
-              <label
-                style={{ color: "white" }}
-                htmlFor="theme"
-                className="dropdown-item"
-                onClick={() =>
-                  dispatch({ type: GLOBALTYPES.THEME, payload: !theme })
-                }
-              >
-                {theme ? "Light mode" : "Dark mode"}
-              </label>
-            </li> */}
             <li>
               <hr className="dropdown-divider" />
             </li>
